@@ -12,6 +12,7 @@
 		BA5525111E67475400A27E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA55250F1E67475400A27E1C /* Main.storyboard */; };
 		BA5525131E67475400A27E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5525121E67475400A27E1C /* Assets.xcassets */; };
 		BA5525161E67475400A27E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5525141E67475400A27E1C /* LaunchScreen.storyboard */; };
+		BA55251E1E67514900A27E1C /* TipCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55251D1E67514900A27E1C /* TipCalcViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BA5525121E67475400A27E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5525151E67475400A27E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5525171E67475400A27E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA55251D1E67514900A27E1C /* TipCalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalcViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BA55250B1E67475400A27E1C /* AppDelegate.swift */,
 				BA55250D1E67475400A27E1C /* ViewController.swift */,
 				BA55250F1E67475400A27E1C /* Main.storyboard */,
+				BA55251D1E67514900A27E1C /* TipCalcViewController.swift */,
 				BA5525121E67475400A27E1C /* Assets.xcassets */,
 				BA5525141E67475400A27E1C /* LaunchScreen.storyboard */,
 				BA5525171E67475400A27E1C /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA55251E1E67514900A27E1C /* TipCalcViewController.swift in Sources */,
 				BA55250E1E67475400A27E1C /* ViewController.swift in Sources */,
 				BA55250C1E67475400A27E1C /* AppDelegate.swift in Sources */,
 			);
