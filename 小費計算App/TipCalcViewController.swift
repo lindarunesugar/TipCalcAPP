@@ -27,13 +27,13 @@ class TipCalcViewController: UIViewController
         else
         {
             let outcome = Double(money.text!)!*(Double(tip.text!)!*0.01+1)
-            result.text = String(outcome)
+            result.text = String(outcome)  //計算完轉字串
         }
     }
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        result.text! = "0"
+        result.text! = "0"  //預設一開始值為零
         // Do any additional setup after loading the view.
     }
 
