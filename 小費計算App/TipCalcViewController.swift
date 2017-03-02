@@ -20,6 +20,10 @@ class TipCalcViewController: UIViewController
     
     @IBAction func calc(_ sender: Any)
     {
+        //按下計算按鈕時收起鍵盤
+        money.resignFirstResponder()
+        tip.resignFirstResponder()
+        
         if money.text! == " " || tip.text! == " "
         {
             result.text! = "0"
@@ -30,6 +34,15 @@ class TipCalcViewController: UIViewController
             result.text = String(outcome)  //計算完轉字串
         }
     }
+    
+    //按下計算按鈕時收起鍵盤
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool
+    {
+        money.resignFirstResponder()
+        tip.resignFirstResponder()
+        return true
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
